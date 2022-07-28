@@ -42,6 +42,7 @@ const handleSubmit = (event) => {
        <div><label htmlFor="date">Date: </label><input
          id="date"
          name="Date"
+         placeholder="Enter Date"
          type="date"
          onChange={handleChange}
        /></div>
@@ -50,6 +51,7 @@ const handleSubmit = (event) => {
        <div><label htmlFor="amount">Amount</label><input
          id="amount"
          name="Amount"
+         placeholder="Enter amount (in INR)"
          type="text"
          onChange={handleChange}
         /></div>
@@ -64,6 +66,7 @@ const handleSubmit = (event) => {
         <div><label htmlFor="remarks">Remarks</label><input
          id="remarks"
          name="Remarks"
+         placeholder="remarks"
          type="text"
          onChange={handleChange}
        /></div>
